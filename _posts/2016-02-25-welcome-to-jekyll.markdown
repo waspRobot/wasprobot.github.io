@@ -1,25 +1,14 @@
 ---
 layout: post
-title:  "test!"
+title:  "Why is there an app for that?"
 date:   2016-02-25 12:08:26 -0500
-categories: jekyll update
+categories: debranding
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Lets talk future.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+A future where there are no 3rd party apps. The 'features' that I want are there for grabs (free, or paid). But there's no 'branding' around these features.
 
-Jekyll also offers powerful support for code snippets:
+## Why no branding?
+Because branding gets in the way of me and the feature. For instance, why should I learn that to play a 'related station' for my favorite song, one app shows an overflow menu, while the other wants me to hard-press on the song and then choose 'play related'?
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Similar obstacle exists in colors and graphics that the designers use to express brand details.
