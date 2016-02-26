@@ -9,8 +9,7 @@
 title: The Wasp Robot
 email: wasonrohit@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a full-stack, agile, software developer by the day, a dancer by the evening, and a dad in between all that
-  I have many musings about technology, dance and life. This is the home of my musings.
+  My name is Rohit Wason. I am a full-stack, agile, software developer by the day, a dancer by the evening, and a dad in between all that. I have many musings about technology, dance and life. This is the home of my musings.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wasprobot.github.io" # the base hostname & protocol for your site
 twitter_username: wasprobot

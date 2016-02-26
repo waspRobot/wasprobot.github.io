@@ -4,11 +4,14 @@ title:  "Why is there an app for that?"
 date:   2016-02-25 12:08:26 -0500
 categories: debranding
 ---
-Lets talk future.
+Lets talk future. A future where there are no 3rd party apps.
 
-A future where there are no 3rd party apps. The 'features' that I want are there for grabs (free, or paid). But there's no 'branding' around these features.
+There are *features*. Features that I can start using (for free, or otherwise). But there's no 'branding' around these features. These are predictable, standard-looking features. Simple as that!
 
 ## Why no branding?
 Because branding gets in the way of me and the feature. For instance, why should I learn that to play a 'related station' for my favorite song, one app shows an overflow menu, while the other wants me to hard-press on the song and then choose 'play related'?
 
 Similar obstacle exists in colors and graphics that the designers use to express brand details.
+
+## Where's my music?
+Can anyone explain why there are *so many* music apps? At its core, a music app should just play music. As long as the music lives on a storage somewhere, shouldn't it be made available to me? I am not proposing free media-rights, or piracy, but uniform access. Now if the music "owners" want to play ads, charge me per song, or let me subscribe monthly, is a business model, and that doesn't need to change. What I have a problem with, is that I have to go through Pandora for my Classic Rock, Spotify for my local Country bands, and Google Play (my own songs) for everything else. These are just examples, but the point is, the branding, and the extra little unique feature of these apps gets in the way of my ability to listen to music freely. Have you ever found yourself driving, and wanting to listen to a particular song, and having to make a decision to which app to open?
