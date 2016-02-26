@@ -9,6 +9,7 @@ Lets talk future. A future where there are no 3rd party apps.
 There are *features*. Features that I can start using (for free, or otherwise). But there's no 'branding' around these features. These are predictable, standard-looking features. Simple as that!
 
 ## Hey Gauri!!
+How are ya?
 
 ## Why no branding?
 Because branding gets in the way of me and the feature. For instance, why should I learn that to play a 'related station' for my favorite song, one app shows an overflow menu, while the other wants me to hard-press on the song and then choose 'play related'?
