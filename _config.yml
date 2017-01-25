@@ -1,20 +1,25 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: The Wasp Robot
-email: wasonrohit@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  My name is Rohit Wason. I am a full-stack, agile, software developer by the day, a dancer by the evening, and a dad in between all that. I have many musings about technology, dance and life. This is the home of my musings.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://wasprobot.github.io" # the base hostname & protocol for your site
-twitter_username: wasprobot
-github_username:  wasprobot
-avatar: https://avatars2.githubusercontent.com/u/5075323?v=3&s=460
+title: "Rohit Wason"
+description: "The wasp-robot"
+baseurl: ""
+url: "http://wasprobot.github.io"
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+highlighter: rouge
+paginate: 3
+
+# Links
+links:
+  - title: "resume"
+    url: /resume
+  - title: "twit"
+    url: http://twitter.com/wasprobot
+  - title: "git"
+    url: http://github.com/wasprobot
+  - title: "rss"
+    url: /feed.xml
+
+# Plugins
+gems:      [jekyll-paginate]
