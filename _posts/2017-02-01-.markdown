@@ -1,0 +1,27 @@
+---
+layout: post
+title:  ""
+date:   2017-02-01
+categories: debranding
+excerpt: Why is it that we take pride in how many apps our phone supports? Is the purpose of technology to serve us toward a more fulfilling human life, or are we becoming slave to technology?
+---
+Lets talk future. A future where there are no 3rd party apps.
+
+There are *features*. Features that I can start using (for free, or otherwise). But there's no 'branding' around these features. These are predictable, standard-looking features. Simple as that!
+
+## Why no branding?
+Because branding gets in the way of me and the feature. For instance, why should I learn that to play a 'related station' for my favorite song, one app shows an overflow menu, while the other wants me to hard-press on the song and then choose 'play related'?
+
+Similar obstacle exists in colors and graphics that the designers use to express brand details.
+
+## Where's my music?
+Let's use an example. Have you ever wondered why there are *so many* music apps? At its core, a music app should just play music. As long as the music lives on a storage somewhere, it shouldn't be available to me. No, I am not proposing free media-rights, or piracy, but uniform access. If the music "owners" want to play ads, charge me per song, or let me subscribe monthly, it's a business model, and that doesn't need to change.
+
+What I have a problem with, is that I have to go through Pandora for my Classic Rock, Spotify for my local Country bands, and Google Play (my own songs) for everything else. These are just examples, but the point is, the branding, and the extra little unique feature of these apps gets in the way of my ability to listen to music freely. Have you ever found yourself driving, and wanting to listen to a particular song, and having to make a decision to which app to open?
+
+## This is just a thought-provoking post
+I don't have a clear picture of this future yet. But here's what it **won't** be:
+
+* A world that discourages innovation; where everything looks like it's government-issued
+* Features that are too slow to be useful, because the businesses that own the operating systems take forever to review the work
+* Features that don't let their creators monetize on them. If anything it'd be a fair monetization reducing the redundancy in favor of the consumer
