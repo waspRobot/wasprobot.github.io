@@ -49,3 +49,7 @@ body {
 .author a {
     color: #ee4444;
 }
+
+.MathJax_Display {
+  text-align: left !important;
+}
