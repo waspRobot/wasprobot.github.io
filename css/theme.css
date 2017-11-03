@@ -50,6 +50,42 @@ body {
     color: #ee4444;
 }
 
-.MathJax_Display {
+/*.MathJax_Display {
   text-align: left !important;
+}*/
+
+th{
+    border:1px solid #000000;
+}
+
+td.extend {
+	/*min-width: 50px;*/
+	background: transparent;
+	border: 1px dashed #000000;
+}
+
+td.interesting {
+	/*min-width: 50px;*/
+	background-color: teal;
+}
+
+td {
+	background-color: lightgrey;
+	/*min-width: 50px;*/
+	text-align: center;
+	padding-left: 2px;
+	padding-right: 2px;
+    border:1px solid #000000;
+}
+
+td.corner-left-bottom {
+	/*min-width: 50px;*/
+	background: transparent;
+	border: none;
+}
+
+td.corner-right-bottom {
+	/*min-width: 50px;*/
+	background: transparent;
+	border: none;
 }
