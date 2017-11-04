@@ -390,7 +390,8 @@ And sure enough, for \\(x=6\\) and \\(x=7\\) the values of \\(f(x)\\) are:
 \\[f(7) = 1852\\]
 
 ### Properties of reduction
-One of the properties of the reduction method I have come across (that my colleague, Nick Hill, helped come up with) is the magic number:
+#### The common reductor
+One of the properties of the reduction method I have come across is the *common reductor* - the number that repeats in the last reduced layer. In our example:
 <br/>
 <table align="center">
 <tr>
@@ -399,9 +400,130 @@ One of the properties of the reduction method I have come across (that my collea
 </table>
 <br/>
 
-There's little magical about this number. You can arrive at it by repeatedly differentiating the *monster-function* w.r.t \\(dx\\):
+My colleague, Nick Hill helped me find that you can find the *common reductor* by repeatedly differentiating the polynomial with respect to \\(dx\\):
 
 \\[\dfrac {d}{dx} (5x^3+3x^2-10) = 15x^2 + 6x\\]
 \\[\dfrac {d}{dx} (15x^2 + 6x) = 30x + 6\\]
 and finally:
 \\[\dfrac {d}{dx} (30x + 6) = 30\\]
+
+#### Reduction and the Fibonacci series
+How does the reduction method work on the Fibonacci numbers? Let's find out:
+<br/>
+<table align="center">
+<tr>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>5</td>
+<td>8</td>
+<td>13</td>
+<td>21</td>
+<td class="extend"></td>
+<td class="extend"></td>
+</tr>
+</table>
+<br/>
+Let's start reducing that bad boy:
+<br/>
+<table align="center">
+<tr>
+<td colspan="2">1</td>
+<td colspan="2">1</td>
+<td colspan="2">2</td>
+<td colspan="2">3</td>
+<td colspan="2">5</td>
+<td colspan="2">8</td>
+<td colspan="2">13</td>
+<td colspan="2">21</td>
+</tr>
+<tr>
+<td class="corner-left-bottom"></td>
+<td colspan="2">0</td>
+<td colspan="2">1</td>
+<td colspan="2">1</td>
+<td colspan="2">3</td>
+<td colspan="2">5</td>
+<td colspan="2">8</td>
+<td colspan="2">13</td>
+<td class="corner-right-bottom"></td>
+</tr>
+</table>
+<br/>
+And more?
+<br/>
+<table align="center">
+<tr>
+<td colspan="2">1</td>
+<td colspan="2">1</td>
+<td colspan="2">2</td>
+<td colspan="2">3</td>
+<td colspan="2">5</td>
+<td colspan="2">8</td>
+<td colspan="2">13</td>
+<td colspan="2">21</td>
+<td colspan="2">34</td>
+<td colspan="2">55</td>
+<td colspan="2">89</td>
+<td colspan="2">144</td>
+<td colspan="2" class="extend"></td>
+<td colspan="2" class="extend"></td>
+</tr>
+<tr>
+<td class="corner-left-bottom"></td>
+<td colspan="2">0</td>
+<td colspan="2">1</td>
+<td colspan="2">1</td>
+<td colspan="2">2</td>
+<td colspan="2">3</td>
+<td colspan="2">5</td>
+<td colspan="2">8</td>
+<td colspan="2">13</td>
+<td colspan="2">21</td>
+<td colspan="2">34</td>
+<td colspan="2">55</td>
+<td colspan="2" class="extend"></td>
+<td colspan="2" class="extend"></td>
+<td class="corner-right-bottom"></td>
+</tr>
+<tr>
+<td class="corner-left-bottom"></td>
+<td class="corner-left-bottom"></td>
+<td colspan="2">1</td>
+<td colspan="2">0</td>
+<td colspan="2">1</td>
+<td colspan="2">1</td>
+<td colspan="2">2</td>
+<td colspan="2">3</td>
+<td colspan="2">5</td>
+<td colspan="2">8</td>
+<td colspan="2">13</td>
+<td colspan="2">21</td>
+<td colspan="2" class="extend"></td>
+<td colspan="2" class="extend"></td>
+<td class="corner-right-bottom"></td>
+<td class="corner-right-bottom"></td>
+</tr>
+<tr>
+<td class="corner-left-bottom"></td>
+<td class="corner-left-bottom"></td>
+<td class="corner-left-bottom"></td>
+<td colspan="2">-1</td>
+<td colspan="2">1</td>
+<td colspan="2">0</td>
+<td colspan="2">1</td>
+<td colspan="2">1</td>
+<td colspan="2">2</td>
+<td colspan="2">3</td>
+<td colspan="2">5</td>
+<td colspan="2">8</td>
+<td colspan="2" class="extend"></td>
+<td colspan="2" class="extend"></td>
+<td class="corner-right-bottom"></td>
+<td class="corner-right-bottom"></td>
+<td class="corner-right-bottom"></td>
+</tr>
+</table>
+<br/>
+It appears that the Fibonacci Series, when reduced produces the Fibonacci Series itself! Hence the reduction will never stop at a *common reductor*
