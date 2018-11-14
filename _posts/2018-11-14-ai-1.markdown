@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "AI-1"
+date:   2018-11-14 12:00:00 -0500
+categories: ai
+excerpt: How (and why?) did I start thinking about AI, almost independently as a young adult?
+---
+One fine Autumn evening, while basking in the sun on my terrace, I came up with a question: Can I teach a computer a simple fact:
+
+> "Bill Clinton is the president of the United States."
+
+My goal was to make the computer **understand** this fact, and ask it followup questions like:
+
+> "Is Bill Clinton a person?",
+
+> "Is there a place called 'the United States'?",
+
+> "Who is the president of the United States?",
+
+> etc.
+
+Being unaware of <a href="https://en.wikipedia.org/wiki/Turing_machine" target="_blank">Alan Turing's musings</a> on similar topics, or the literature that was around at the time, I started proposing my own ideas on paper:
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="391px" height="71px" viewBox="-0.5 -0.5 391 71"><defs/><rect x="0" y="0" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/><g transform="translate(31.5,23.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="56" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 58px; white-space: nowrap; word-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Bill Clinton</div></div></foreignObject><text x="28" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">Bill Clinton</text></switch></g><rect x="270" y="0" width="120" height="60" rx="9" ry="9" fill="#ffffff" stroke="#000000" pointer-events="none"/><g transform="translate(293.5,23.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="72" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 74px; white-space: nowrap; word-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">United States</div></div></foreignObject><text x="36" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">United States</text></switch></g><path d="M 120 30 L 263.63 30" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><path d="M 268.88 30 L 261.88 33.5 L 263.63 30 L 261.88 26.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(152.5,24.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="75" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">is president of</div></div></foreignObject><text x="38" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">is president of</text></switch></g><rect x="60" y="50" width="50" height="20" fill="#ffffff" stroke="#000000" pointer-events="none"/><g transform="translate(69.5,53.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="30" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 32px; white-space: nowrap; word-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><font style="font-size: 10px">person</font></div></div></foreignObject><text x="15" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">[Not supported by viewer]</text></switch></g><rect x="330" y="50" width="50" height="20" fill="#ffffff" stroke="#000000" pointer-events="none"/><g transform="translate(342.5,53.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="24" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 24px; white-space: nowrap; word-wrap: normal; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><font style="font-size: 10px">place</font></div></div></foreignObject><text x="12" y="12" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">[Not supported by viewer]</text></switch></g></svg>
+
+### My goals were to figure out:
+* How to represent meaning of facts,
+* Provide a querying mechanism to ask questions, and
+* Answer the questions from the meaning
+
+### Natural Language Parsing
+One of the most natural place to go when you find yourself with these questions is <a href="https://en.wikipedia.org/wiki/Natural_language_processing" target="_blank">Natural Language Processing</a> or NLP, for short. I started looking at <a href="https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form" target="_blank">Backus Naur Form</a> for computer languages and started building a basic BNF for English.
+
+### Computer Semantics and First Order Logic
+http://www.coli.uni-saarland.de/projects/milca/courses/comsem/html/index.html
+
+### Prolog
+http://lpn.swi-prolog.org/lpnpage.php?pageid=online
+
+### The meaning of meaning
+
+### Lambda Calculus
+<iframe width="250" src="https://www.youtube.com/embed/3VQ382QG-y4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Book: To Mock A Mockingbird
+<iframe type="text/html" width="212" height="362" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B00A1P096Y&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_Enj7BbY8614PM" ></iframe>
