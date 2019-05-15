@@ -1,47 +1,81 @@
-{% include header.html %}
+---
+layout: default
+---
+<div class="post">
+  <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="post__header section-padding--double">
+      <div class="grid-small">
+        <h2 itemprop="name headline">{{ page.title }}</h2>
 
-<div class="container container-left">
-    <div class="row">
-        <div class="col-md-3 hidden-xs">
-            {% include sidebar.html %}
-        </div>
-        <div class="col-md-9">
-          <div class="article">
-            <div class="well">
-                <h1><a href="{{ site.baseurl}}{{ page.url }}">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
-            {% if site.comments and page.comments %}
-                {% if site.disqus != '' %}
-                <p class="author"><a href="#disqus_thread" data-disqus-identifier="{{ page.url | slugify }}">Comments</a></p>
-                {% elsif site.isso != '' %}
-                <p class="author"><a href="{{ site.baseurl }}{{ page.url }}{{ site.isso_suffix }}#isso-thread">Comments</a></p>
-                {% endif %}
-            {% endif %}
-            <div class="post-content">
-            {{ content }}
-            </div>
-            {% if page.comments %}
-                {% if site.disqus != '' %}
-            <div id="disqus_thread">
-                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-            </div>
-                {% elsif site.isso != '' %}
-                <section id="isso-thread"></section>
-                {% endif %}
-            {% endif %}
-            </div>
-          </div>
-          <div class="pagination">
-              {% if page.next %}
-                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.next.url }}" class="next">Newer Post</a>
-              {% endif %}
-              {% if page.previous %}
-                <a class="btn btn-default" href="{{ site.baseurl}}{{ page.previous.url }}" class="previous">Older Post</a>
-              {% endif %}
-          </div>
-        </div>
+        <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>
+      </div>
     </div>
+
+    {% if page.image %}
+      <div class="post__img">
+        <div>
+          <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="post__content section-padding">
+      <div class="grid">
+        <div id="markdown" itemprop="articleBody">
+          {{content}}
+        </div>
+
+        {% include share.html %}
+      </div>
+    </div>
+
+    <!-- Everything inside the #author tags pulls data from the author -->
+    {% if page.author %}
+      <div class="section-padding--none">
+        <div class="grid">
+          <hr class="sep"/>
+        </div>
+      </div>
+
+      <div class="section-padding">
+        <div class="grid-small">
+          {% for author in site.author %}
+            <span class="post__author">Posted by {% if author["name"] == page.author and author["url"] %}<a href="{{ author['url'] }}" title="More By {{ page.author }}">{% endif %}{{ page.author }}{% if author["name"] == page.author and author["url"] %}</a>{% endif %}</span>
+            {% if author["name"] == page.author %}
+              <p class="post__bio">{{ author["bio"] }}</p>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% include disqus.html %}
+
+  </article>
 </div>
 
-{% include disqus-comments.html %}
-{% include footer.html %}
+<!-- Links to Previous/Next posts -->
+{% assign relatedTag = page.tags | first %}
+{% if relatedTag %}
+  <section class="related section-padding">
+    <div class="grid-xlarge">
+      <h2 class="related__title">Related</h2>
+      <div class="related__container">
+        {% for post in site.tags[relatedTag] limit: 3 %}
+          <article class="related__post">
+            <a class="related__link" href="{{ post.url | absolute_url }}">
+              {% if post.image %}
+                <figure class="related__img">
+                  <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                </figure>
+              {% endif %}
+              <div>
+                <h2 class="related__text">{{ post.title }}</h2>
+              </div>
+            </a>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+{% endif %}
