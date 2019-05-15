@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Barber Theme</title>
+    <description>Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
+</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 15 May 2019 09:23:59 -0400</pubDate>
+    <lastBuildDate>Wed, 15 May 2019 09:23:59 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>AI-1</title>
+        <description>&lt;p&gt;One fine Autumn evening, while basking in the sun on my terrace, I came up with a question: Can I teach a computer a simple fact:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Bill Clinton is the president of the United States.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My goal was to make the computer &lt;strong&gt;understand&lt;/strong&gt; this fact, and ask it followup questions like:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Is Bill Clinton a person?”,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Is there a place called ‘the United States’?”,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Who is the president of the United States?”,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Being unaware of &lt;a href=&quot;https://en.wikipedia.org/wiki/Turing_machine&quot; target=&quot;_blank&quot;&gt;Alan Turing’s musings&lt;/a&gt; on similar topics, or the literature that was around at the time, I started proposing my own ideas on paper:&lt;/p&gt;
+
+&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; version=&quot;1.1&quot; width=&quot;391px&quot; height=&quot;71px&quot; viewBox=&quot;-0.5 -0.5 391 71&quot;&gt;&lt;defs /&gt;&lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;60&quot; rx=&quot;9&quot; ry=&quot;9&quot; fill=&quot;#ffffff&quot; stroke=&quot;#000000&quot; pointer-events=&quot;none&quot; /&gt;&lt;g transform=&quot;translate(31.5,23.5)&quot;&gt;&lt;switch&gt;&lt;foreignObject style=&quot;overflow:visible;&quot; pointer-events=&quot;all&quot; width=&quot;56&quot; height=&quot;12&quot; requiredFeatures=&quot;http://www.w3.org/TR/SVG11/feature#Extensibility&quot;&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 58px; white-space: nowrap; word-wrap: normal; text-align: center;&quot;&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;display:inline-block;text-align:inherit;text-decoration:inherit;&quot;&gt;Bill Clinton&lt;/div&gt;&lt;/div&gt;&lt;/foreignObject&gt;&lt;text x=&quot;28&quot; y=&quot;12&quot; fill=&quot;#000000&quot; text-anchor=&quot;middle&quot; font-size=&quot;12px&quot; font-family=&quot;Helvetica&quot;&gt;Bill Clinton&lt;/text&gt;&lt;/switch&gt;&lt;/g&gt;&lt;rect x=&quot;270&quot; y=&quot;0&quot; width=&quot;120&quot; height=&quot;60&quot; rx=&quot;9&quot; ry=&quot;9&quot; fill=&quot;#ffffff&quot; stroke=&quot;#000000&quot; pointer-events=&quot;none&quot; /&gt;&lt;g transform=&quot;translate(293.5,23.5)&quot;&gt;&lt;switch&gt;&lt;foreignObject style=&quot;overflow:visible;&quot; pointer-events=&quot;all&quot; width=&quot;72&quot; height=&quot;12&quot; requiredFeatures=&quot;http://www.w3.org/TR/SVG11/feature#Extensibility&quot;&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 74px; white-space: nowrap; word-wrap: normal; text-align: center;&quot;&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;display:inline-block;text-align:inherit;text-decoration:inherit;&quot;&gt;United States&lt;/div&gt;&lt;/div&gt;&lt;/foreignObject&gt;&lt;text x=&quot;36&quot; y=&quot;12&quot; fill=&quot;#000000&quot; text-anchor=&quot;middle&quot; font-size=&quot;12px&quot; font-family=&quot;Helvetica&quot;&gt;United States&lt;/text&gt;&lt;/switch&gt;&lt;/g&gt;&lt;path d=&quot;M 120 30 L 263.63 30&quot; fill=&quot;none&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; pointer-events=&quot;none&quot; /&gt;&lt;path d=&quot;M 268.88 30 L 261.88 33.5 L 263.63 30 L 261.88 26.5 Z&quot; fill=&quot;#000000&quot; stroke=&quot;#000000&quot; stroke-miterlimit=&quot;10&quot; pointer-events=&quot;none&quot; /&gt;&lt;g transform=&quot;translate(152.5,24.5)&quot;&gt;&lt;switch&gt;&lt;foreignObject style=&quot;overflow:visible;&quot; pointer-events=&quot;all&quot; width=&quot;75&quot; height=&quot;12&quot; requiredFeatures=&quot;http://www.w3.org/TR/SVG11/feature#Extensibility&quot;&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;&quot;&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;&quot;&gt;is president of&lt;/div&gt;&lt;/div&gt;&lt;/foreignObject&gt;&lt;text x=&quot;38&quot; y=&quot;12&quot; fill=&quot;#000000&quot; text-anchor=&quot;middle&quot; font-size=&quot;12px&quot; font-family=&quot;Helvetica&quot;&gt;is president of&lt;/text&gt;&lt;/switch&gt;&lt;/g&gt;&lt;rect x=&quot;60&quot; y=&quot;50&quot; width=&quot;50&quot; height=&quot;20&quot; fill=&quot;#ffffff&quot; stroke=&quot;#000000&quot; pointer-events=&quot;none&quot; /&gt;&lt;g transform=&quot;translate(69.5,53.5)&quot;&gt;&lt;switch&gt;&lt;foreignObject style=&quot;overflow:visible;&quot; pointer-events=&quot;all&quot; width=&quot;30&quot; height=&quot;12&quot; requiredFeatures=&quot;http://www.w3.org/TR/SVG11/feature#Extensibility&quot;&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 32px; white-space: nowrap; word-wrap: normal; text-align: center;&quot;&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;display:inline-block;text-align:inherit;text-decoration:inherit;&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;person&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/foreignObject&gt;&lt;text x=&quot;15&quot; y=&quot;12&quot; fill=&quot;#000000&quot; text-anchor=&quot;middle&quot; font-size=&quot;12px&quot; font-family=&quot;Helvetica&quot;&gt;[Not supported by viewer]&lt;/text&gt;&lt;/switch&gt;&lt;/g&gt;&lt;rect x=&quot;330&quot; y=&quot;50&quot; width=&quot;50&quot; height=&quot;20&quot; fill=&quot;#ffffff&quot; stroke=&quot;#000000&quot; pointer-events=&quot;none&quot; /&gt;&lt;g transform=&quot;translate(342.5,53.5)&quot;&gt;&lt;switch&gt;&lt;foreignObject style=&quot;overflow:visible;&quot; pointer-events=&quot;all&quot; width=&quot;24&quot; height=&quot;12&quot; requiredFeatures=&quot;http://www.w3.org/TR/SVG11/feature#Extensibility&quot;&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 24px; white-space: nowrap; word-wrap: normal; text-align: center;&quot;&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;display:inline-block;text-align:inherit;text-decoration:inherit;&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;place&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/foreignObject&gt;&lt;text x=&quot;12&quot; y=&quot;12&quot; fill=&quot;#000000&quot; text-anchor=&quot;middle&quot; font-size=&quot;12px&quot; font-family=&quot;Helvetica&quot;&gt;[Not supported by viewer]&lt;/text&gt;&lt;/switch&gt;&lt;/g&gt;&lt;/svg&gt;
+
+&lt;h3 id=&quot;my-goals-were-to-figure-out&quot;&gt;My goals were to figure out:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;How to represent meaning of facts,&lt;/li&gt;
+  &lt;li&gt;Provide a querying mechanism to ask questions, and&lt;/li&gt;
+  &lt;li&gt;Answer the questions from the meaning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;natural-language-parsing&quot;&gt;Natural Language Parsing&lt;/h3&gt;
+&lt;p&gt;One of the most natural place to go when you find yourself with these questions is &lt;a href=&quot;https://en.wikipedia.org/wiki/Natural_language_processing&quot; target=&quot;_blank&quot;&gt;Natural Language Processing&lt;/a&gt; or NLP, for short. I started looking at &lt;a href=&quot;https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form&quot; target=&quot;_blank&quot;&gt;Backus Naur Form&lt;/a&gt; for computer languages and started building a basic BNF for English.&lt;/p&gt;
+
+&lt;h3 id=&quot;computer-semantics-and-first-order-logic&quot;&gt;Computer Semantics and First Order Logic&lt;/h3&gt;
+&lt;p&gt;http://www.coli.uni-saarland.de/projects/milca/courses/comsem/html/index.html&lt;/p&gt;
+
+&lt;h3 id=&quot;prolog&quot;&gt;Prolog&lt;/h3&gt;
+&lt;p&gt;http://lpn.swi-prolog.org/lpnpage.php?pageid=online&lt;/p&gt;
+
+&lt;h3 id=&quot;the-meaning-of-meaning&quot;&gt;The meaning of meaning&lt;/h3&gt;
+
+&lt;h3 id=&quot;lambda-calculus&quot;&gt;Lambda Calculus&lt;/h3&gt;
+&lt;iframe width=&quot;250&quot; src=&quot;https://www.youtube.com/embed/3VQ382QG-y4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;book-to-mock-a-mockingbird&quot;&gt;Book: To Mock A Mockingbird&lt;/h3&gt;
+&lt;iframe type=&quot;text/html&quot; width=&quot;212&quot; height=&quot;362&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;max-width:100%&quot; src=&quot;https://read.amazon.com/kp/card?asin=B00A1P096Y&amp;amp;preview=newtab&amp;amp;linkCode=kpe&amp;amp;ref_=cm_sw_r_kb_dp_Enj7BbY8614PM&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Wed, 14 Nov 2018 12:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/11/14/ai-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/14/ai-1/</guid>
+        
+        
+        <category>ai</category>
+        
+      </item>
+    
+      <item>
+        <title>Number Series Reduction</title>
+        <description>&lt;h3 id=&quot;troubled-childhood&quot;&gt;Troubled childhood&lt;/h3&gt;
+&lt;p&gt;Since I was a child, I have been fond of solving number-series. You know, the kind where you find the “next 3 numbers in the series”. A simple example being the \( x^2 \) series:&lt;/p&gt;
+
+&lt;p&gt;\[(1, 4, 9, 16, …)\tag{1}\]&lt;/p&gt;
+
+&lt;p&gt;[I will assume for the rest of the article, that x is a positive integer, starting at 1.]&lt;/p&gt;
+
+&lt;p&gt;Now that series was easy to eyeball, and you could come up with the next 3 numbers (\(25, 36, 49\) in case you are still scratching your head). One would argue that a simple \(x^4\) or even something like \(3x + 5\) would be relatively easier on the eye:&lt;/p&gt;
+
+&lt;p&gt;\[(8, 11, 14, 17, …)\]&lt;/p&gt;
+
+&lt;p&gt;So, through my middle-school years, I breezed through those easy ones without thinking. Trouble began when I started seeing something like:&lt;/p&gt;
+
+&lt;p&gt;\((-2, 42, 152, 358, 690, …) \tag{2}\)&lt;/p&gt;
+
+&lt;p&gt;How do you eyeball anything like that? Where do you even begin?&lt;/p&gt;
+
+&lt;h3 id=&quot;reduce-that-series-break-down&quot;&gt;Reduce that series (break-down!)&lt;/h3&gt;
+&lt;p&gt;For the easier series, one of the tricks I had learned was to &lt;strong&gt;find the difference in the consecutive numbers&lt;/strong&gt; and try to find a pattern. For example, in case of (1: square-series) above, the &lt;em&gt;reduced series&lt;/em&gt; (as I call it) becomes:
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;4&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;4&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;16&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;25&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;36&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;3&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;5&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;7&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;9&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;11&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see the pattern here (these are the &lt;em&gt;positive odd integers&lt;/em&gt;)&lt;/p&gt;
+
+&lt;h3 id=&quot;reduce-the-reduction&quot;&gt;Reduce the reduction??&lt;/h3&gt;
+&lt;p&gt;Wait! But how do the &lt;em&gt;positive odd integers&lt;/em&gt; progress? Well, on closer look, you actually reduce &lt;em&gt;that&lt;/em&gt; series (in your head) to find the next numbers (Remember the “count by 2?” Notice the last 2 rows below):
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;4&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;4&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;16&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;25&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;36&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;3&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;5&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;7&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;9&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;11&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;2&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Phew! Boy, that was &lt;strong&gt;a lot&lt;/strong&gt; of reduction!! Does this mean we can apply this pattern to our &lt;strong&gt;(2: monster-series)&lt;/strong&gt; above? Here it is:
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;-2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;42&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;152&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;358&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;690&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reduction-1&quot;&gt;Reduction #1&lt;/h4&gt;
+&lt;p&gt;Derive the next layer:
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;-2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;42&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;152&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;358&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;690&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;44&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;110&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;206&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;332&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reduction-2&quot;&gt;Reduction #2&lt;/h4&gt;
+&lt;p&gt;And the next:
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;-2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;42&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;152&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;358&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;690&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;44&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;110&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;206&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;332&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;66&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;96&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;126&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;reduction-3&quot;&gt;Reduction #3&lt;/h4&gt;
+&lt;p&gt;And finally:
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;-2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;42&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;152&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;358&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;690&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;44&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;110&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;206&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;332&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;66&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;96&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;126&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;interesting&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;interesting&quot;&gt;30&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hey! I see the pattern! The 3&lt;sup&gt;rd&lt;/sup&gt; reduction was easy - the numbers are all \(30\) apart.&lt;/p&gt;
+
+&lt;h3 id=&quot;extend-the-series-build-up&quot;&gt;Extend the series (build-up!)&lt;/h3&gt;
+&lt;p&gt;Let’s apply that \(30\) to develop the bottom-most layer first:&lt;/p&gt;
+
+&lt;h4 id=&quot;extension-1&quot;&gt;Extension #1&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;-2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;42&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;152&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;358&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;690&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;44&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;110&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;206&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;332&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;66&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;96&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;126&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;30&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;extension-2&quot;&gt;Extension #2&lt;/h4&gt;
+&lt;p&gt;Make-up the layer next-up, by adding \(30\) to the known-values:
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;-2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;42&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;152&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;358&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;690&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;44&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;110&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;206&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;332&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;66&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;96&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;126&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;156&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;186&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;30&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;extension-3&quot;&gt;Extension #3&lt;/h4&gt;
+&lt;p&gt;Make-up the layer above that! Why not?!
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;-2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;42&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;152&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;358&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;690&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;44&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;110&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;206&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;332&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;488&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;674&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;66&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;96&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;126&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;156&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;186&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;30&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;extension-4&quot;&gt;Extension #4&lt;/h4&gt;
+&lt;p&gt;Keep going!:
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;-2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;42&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;152&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;358&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;690&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend interesting&quot;&gt;1178&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend interesting&quot;&gt;1852&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;44&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;110&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;206&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;332&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;488&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;674&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;66&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;96&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;126&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;156&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;186&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;30&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;30&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you see what I see?! We have &lt;strong&gt;2 new numbers&lt;/strong&gt; in our &lt;em&gt;monster-series&lt;/em&gt;!&lt;/p&gt;
+
+&lt;h3 id=&quot;test&quot;&gt;Test!&lt;/h3&gt;
+&lt;p&gt;The proof that the 2 new numbers are it? Well, we have to ask the creator of the series (&lt;em&gt;that’s Yours Truly&lt;/em&gt;). So full disclosure: I had used the following polynomial for this series:
+\[f(x)=5x^3+3x^2-10\]&lt;/p&gt;
+
+&lt;p&gt;And sure enough, for \(x=6\) and \(x=7\) the values of \(f(x)\) are:&lt;/p&gt;
+
+&lt;p&gt;\[f(6) = 1178\]&lt;/p&gt;
+
+&lt;p&gt;\[f(7) = 1852\]&lt;/p&gt;
+
+&lt;h3 id=&quot;properties-of-reduction&quot;&gt;Properties of reduction&lt;/h3&gt;
+&lt;h4 id=&quot;the-common-reductor&quot;&gt;The common reductor&lt;/h4&gt;
+&lt;p&gt;One of the properties of the reduction method I have come across is the &lt;em&gt;common reductor&lt;/em&gt; - the number that repeats in the last reduced layer. In our example:
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td class=&quot;interesting&quot;&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;My colleague, Nick Hill helped me find that you can find the &lt;em&gt;common reductor&lt;/em&gt; by repeatedly differentiating the polynomial with respect to \(dx\):&lt;/p&gt;
+
+&lt;p&gt;\[\dfrac {d}{dx} (5x^3+3x^2-10) = 15x^2 + 6x\]
+\[\dfrac {d}{dx} (15x^2 + 6x) = 30x + 6\]
+and finally:
+\[\dfrac {d}{dx} (30x + 6) = 30\]&lt;/p&gt;
+
+&lt;h4 id=&quot;reduction-and-the-fibonacci-series&quot;&gt;Reduction and the Fibonacci series&lt;/h4&gt;
+&lt;p&gt;How does the reduction method work on the Fibonacci numbers? Let’s find out:
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td class=&quot;extend&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;extend&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;
+Let’s start reducing that bad boy:
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;3&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;5&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;8&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;13&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;0&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;3&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;5&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;8&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;13&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;
+And more?
+&lt;br /&gt;&lt;/p&gt;
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;3&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;5&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;8&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;13&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;21&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;34&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;55&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;89&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;144&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;0&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;3&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;5&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;8&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;13&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;21&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;34&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;55&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;0&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;3&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;5&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;8&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;13&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;21&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-left-bottom&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;-1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;0&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;1&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;2&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;3&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;5&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;8&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; class=&quot;extend&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;td class=&quot;corner-right-bottom&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;
+It appears that the Fibonacci Series, when reduced produces the Fibonacci Series itself! Hence the reduction will never stop at a &lt;em&gt;common reductor&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Nov 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/11/02/number-series-reduction/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/11/02/number-series-reduction/</guid>
+        
+        
+        <category>math</category>
+        
+      </item>
+    
+      <item>
+        <title>Derivative of Sigmoid</title>
+        <description>&lt;p&gt;In exploring machine learning, its common to come across an &lt;em&gt;activation function&lt;/em&gt; called Sigmoid \( \sigma \). It’s a good idea to &lt;a href=&quot;https://en.wikipedia.org/wiki/Sigmoid_function&quot;&gt;wrap your head around it&lt;/a&gt;. But in its basic form:&lt;/p&gt;
+
+&lt;p&gt;\[ \sigma = \dfrac {1} {1+e^{-x}} \label{a} \tag{1} \]&lt;/p&gt;
+
+&lt;p&gt;I might write a post listing various other activation functions, and maybe describing the purpose of an activation function. But today let’s talk about the Derivative of Sigmoid, \( \sigma’ \). Function like \( \sigma’ \) are important to keep handy while performing learning by &lt;a href=&quot;https://en.wikipedia.org/wiki/Gradient_descent&quot;&gt;Gradient Descent&lt;/a&gt; (but more on that in another post). Now by definition:&lt;/p&gt;
+
+&lt;p&gt;\[ \sigma’ =  \dfrac {d \sigma} {dx} \]&lt;/p&gt;
+
+&lt;p&gt;Using &lt;a href=&quot;https://en.wikipedia.org/wiki/Quotient_rule&quot;&gt;derivative of quotient&lt;/a&gt;: if \( y = \dfrac {u} {v} \), \( y’ = \dfrac {vu’ - uv’} {v^{2}} \). \( \sigma \) can be represented as: \( \sigma =  \dfrac {u} {v} \) where \( u=1; v=1+e^{-x} \).&lt;/p&gt;
+
+&lt;p&gt;\[ \Rightarrow \sigma’ = \dfrac {vu’ - uv’} {v^{2}} \]
+\[ = \dfrac {(1+e^{-x}) \cdot \dfrac {d}{dx}1 - 1 \cdot \dfrac {d}{dx}(1+e^{-x})} {(1+e^{-x})^2} \]
+&lt;br /&gt;
+&lt;br /&gt;
+Now, \( \dfrac{d}{dx}(1+e^{-x}) = \dfrac{d}{dx}1 + \dfrac{d}{dx}(e^{-x}) = 0 + -e^{-x} = -e^{-x} \), using &lt;a href=&quot;https://en.wikipedia.org/wiki/Differentiation_rules#Derivatives_of_exponential_and_logarithmic_functions&quot;&gt;derivative of exponential&lt;/a&gt;, and since \( \dfrac {d}{dx}1 = 0 \).&lt;/p&gt;
+
+&lt;p&gt;\[ \Rightarrow \sigma’ = \dfrac {0 - (-e^{-x})} {(1+e^{-x})^2} \]
+\[ = \dfrac {e^{-x}} {(1+e^{-x})^2} \]
+\[ = \dfrac {1+e^{-x}-1} {(1+e^{-x})^2} \]
+\[ = \dfrac {1}{1+e^{-x}} \cdot \dfrac {(1+e^{-x})-1} {1+e^{-x}} \]
+\[ = \dfrac {1}{1+e^{-x}} \cdot (1 - \dfrac {1} {1+e^{-x}}) \]
+&lt;br /&gt;
+&lt;br /&gt;
+Hence, using (\( \ref{a} \)), the Derivative of Sigmoid can be represented as:&lt;/p&gt;
+
+&lt;p&gt;\[ \boxed{ \sigma’ = \sigma(1-\sigma) } \tag{2}\]
+&lt;br /&gt;
+&lt;br /&gt;
+This is my first post in a series of machine learning-related posts. I am starting with explaining the basics first (especially the math behind the basics) because sometimes it’s the basic concepts that get lost.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Oct 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2017/10/06/derivative-sigmoid/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/06/derivative-sigmoid/</guid>
+        
+        
+        <category>machine-learning</category>
+        
+      </item>
+    
+      <item>
+        <title>Why is there an app for that?</title>
+        <description>&lt;p&gt;Lets talk future. A future where there are no 3rd party apps.&lt;/p&gt;
+
+&lt;p&gt;There are &lt;em&gt;features&lt;/em&gt;. Features that I can start using (for free, or otherwise). But there’s no ‘branding’ around these features. These are predictable, standard-looking features. Simple as that!&lt;/p&gt;
+
+&lt;h2 id=&quot;why-no-branding&quot;&gt;Why no branding?&lt;/h2&gt;
+&lt;p&gt;Because branding gets in the way of me and the feature. For instance, why should I learn that to play a ‘related station’ for my favorite song, one app shows an overflow menu, while the other wants me to hard-press on the song and then choose ‘play related’?&lt;/p&gt;
+
+&lt;p&gt;Similar obstacle exists in colors and graphics that the designers use to express brand details.&lt;/p&gt;
+
+&lt;h2 id=&quot;wheres-my-music&quot;&gt;Where’s my music?&lt;/h2&gt;
+&lt;p&gt;Let’s use an example. Have you ever wondered why there are &lt;em&gt;so many&lt;/em&gt; music apps? At its core, a music app should just play music. As long as the music lives on a storage somewhere, it shouldn’t be available to me. No, I am not proposing free media-rights, or piracy, but uniform access. If the music “owners” want to play ads, charge me per song, or let me subscribe monthly, it’s a business model, and that doesn’t need to change.&lt;/p&gt;
+
+&lt;p&gt;What I have a problem with, is that I have to go through Pandora for my Classic Rock, Spotify for my local Country bands, and Google Play (my own songs) for everything else. These are just examples, but the point is, the branding, and the extra little unique feature of these apps gets in the way of my ability to listen to music freely. Have you ever found yourself driving, and wanting to listen to a particular song, and having to make a decision to which app to open?&lt;/p&gt;
+
+&lt;h2 id=&quot;this-is-just-a-thought-provoking-post&quot;&gt;This is just a thought-provoking post&lt;/h2&gt;
+&lt;p&gt;I don’t have a clear picture of this future yet. But here’s what it &lt;strong&gt;won’t&lt;/strong&gt; be:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A world that discourages innovation; where everything looks like it’s government-issued&lt;/li&gt;
+  &lt;li&gt;Features that are too slow to be useful, because the businesses that own the operating systems take forever to review the work&lt;/li&gt;
+  &lt;li&gt;Features that don’t let their creators monetize on them. If anything it’d be a fair monetization reducing the redundancy in favor of the consumer&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 25 Feb 2016 12:08:26 -0500</pubDate>
+        <link>http://localhost:4000/2016/02/25/why-apps/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/02/25/why-apps/</guid>
+        
+        
+        <category>debranding</category>
+        
+      </item>
+    
+  </channel>
+</rss>
