@@ -4,10 +4,10 @@
     <title>The Barber Theme</title>
     <description>Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
 </description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 May 2019 10:00:27 -0400</pubDate>
-    <lastBuildDate>Thu, 16 May 2019 10:00:27 -0400</lastBuildDate>
+    <link>http://barber.samesies.io</link>
+    <atom:link href="http://barber.samesies.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 16 May 2019 14:02:52 -0400</pubDate>
+    <lastBuildDate>Thu, 16 May 2019 14:02:52 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -16,8 +16,8 @@
 
 </description>
         <pubDate>Tue, 14 May 2019 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2019/05/14/tea/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/05/14/tea/</guid>
+        <link>http://barber.samesies.io/2019/05/14/tea/</link>
+        <guid isPermaLink="true">http://barber.samesies.io/2019/05/14/tea/</guid>
         
         <category>Tea</category>
         
@@ -81,8 +81,8 @@
 &lt;iframe type=&quot;text/html&quot; width=&quot;212&quot; height=&quot;362&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;max-width:100%&quot; src=&quot;https://read.amazon.com/kp/card?asin=B00A1P096Y&amp;amp;preview=newtab&amp;amp;linkCode=kpe&amp;amp;ref_=cm_sw_r_kb_dp_Enj7BbY8614PM&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 14 Nov 2018 12:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/11/14/ai-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/11/14/ai-1/</guid>
+        <link>http://barber.samesies.io/2018/11/14/ai-1/</link>
+        <guid isPermaLink="true">http://barber.samesies.io/2018/11/14/ai-1/</guid>
         
         
         <category>ai</category>
@@ -615,8 +615,8 @@ And more?
 It appears that the Fibonacci Series, when reduced produces the Fibonacci Series itself! Hence the reduction will never stop at a &lt;em&gt;common reductor&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 02 Nov 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/11/02/number-series-reduction/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/02/number-series-reduction/</guid>
+        <link>http://barber.samesies.io/2017/11/02/number-series-reduction/</link>
+        <guid isPermaLink="true">http://barber.samesies.io/2017/11/02/number-series-reduction/</guid>
         
         
         <category>math</category>
@@ -656,8 +656,8 @@ Hence, using (\( \ref{a} \)), the Derivative of Sigmoid can be represented as:&l
 This is my first post in a series of machine learning-related posts. I am starting with explaining the basics first (especially the math behind the basics) because sometimes it’s the basic concepts that get lost.&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Oct 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/10/06/derivative-sigmoid/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/10/06/derivative-sigmoid/</guid>
+        <link>http://barber.samesies.io/2017/10/06/derivative-sigmoid/</link>
+        <guid isPermaLink="true">http://barber.samesies.io/2017/10/06/derivative-sigmoid/</guid>
         
         <category>Math</category>
         
@@ -694,8 +694,8 @@ This is my first post in a series of machine learning-related posts. I am starti
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 25 Feb 2016 12:08:26 -0500</pubDate>
-        <link>http://localhost:4000/2016/02/25/why-apps/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/02/25/why-apps/</guid>
+        <link>http://barber.samesies.io/2016/02/25/why-apps/</link>
+        <guid isPermaLink="true">http://barber.samesies.io/2016/02/25/why-apps/</guid>
         
         <category>Apps</category>
         
