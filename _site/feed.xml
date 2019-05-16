@@ -6,9 +6,25 @@
 </description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 May 2019 09:23:59 -0400</pubDate>
-    <lastBuildDate>Wed, 15 May 2019 09:23:59 -0400</lastBuildDate>
+    <pubDate>Thu, 16 May 2019 10:00:27 -0400</pubDate>
+    <lastBuildDate>Thu, 16 May 2019 10:00:27 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Tea?</title>
+        <description>&lt;p&gt;Everything gets old. In that spirit, let me tell you about tea…or rather, my relationship with tea.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 14 May 2019 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2019/05/14/tea/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/05/14/tea/</guid>
+        
+        <category>Tea</category>
+        
+        
+        <category>tea</category>
+        
+      </item>
     
       <item>
         <title>AI-1</title>
@@ -643,8 +659,12 @@ This is my first post in a series of machine learning-related posts. I am starti
         <link>http://localhost:4000/2017/10/06/derivative-sigmoid/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/06/derivative-sigmoid/</guid>
         
+        <category>Math</category>
         
-        <category>machine-learning</category>
+        <category>Machine Learning</category>
+        
+        
+        <category>math</category>
         
       </item>
     
@@ -676,6 +696,10 @@ This is my first post in a series of machine learning-related posts. I am starti
         <pubDate>Thu, 25 Feb 2016 12:08:26 -0500</pubDate>
         <link>http://localhost:4000/2016/02/25/why-apps/</link>
         <guid isPermaLink="true">http://localhost:4000/2016/02/25/why-apps/</guid>
+        
+        <category>Apps</category>
+        
+        <category>Debranding</category>
         
         
         <category>debranding</category>

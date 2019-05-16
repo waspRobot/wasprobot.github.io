@@ -4,7 +4,12 @@ title:  "Why is there an app for that?"
 date:   2016-02-25 12:08:26 -0500
 categories: debranding
 excerpt: Why is it that we take pride in how many apps our phone supports? Is the purpose of technology to serve us toward a more fulfilling human life, or are we becoming slave to technology?
+image: /assets/images/mobile-app.jpg
+tags: 
+  - Apps
+  - Debranding
 ---
+
 Lets talk future. A future where there are no 3rd party apps.
 
 There are *features*. Features that I can start using (for free, or otherwise). But there's no 'branding' around these features. These are predictable, standard-looking features. Simple as that!

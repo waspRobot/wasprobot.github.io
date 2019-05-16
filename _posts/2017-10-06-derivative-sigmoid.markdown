@@ -2,8 +2,12 @@
 layout: post
 title:  "Derivative of Sigmoid"
 date:   2017-10-06
-categories: machine-learning
-excerpt: ---
+categories: math
+excerpt: Ever wanted to find the derivative of 'sigma'. Yeah...me neither! But sometimes ya got to do some down and dirty math to wrap your head around some machine-learning courses. This is one such example.
+image: /assets/images/math-art.jpg
+tags: 
+  - Math
+  - Machine Learning
 ---
 In exploring machine learning, its common to come across an _activation function_ called Sigmoid \\( \sigma \\). It's a good idea to [wrap your head around it](https://en.wikipedia.org/wiki/Sigmoid_function). But in its basic form:
 
